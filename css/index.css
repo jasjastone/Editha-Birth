@@ -1,1 +1,442 @@
+/*
+    -------creator James Meshack feel free to call me or text me on whatsapp or normal text
+    -------i build website,application,systems using different frameworks
+    #####################################################################################################
+    My Skills:------ Programming ,Drawing,Graphics design,Game Development 
+    ###################################################################################################
+    Programming language that i know and use to do all of my work
+        @@@@@@ Python
+        @@@@@@ Php
+        @@@@@@ C
+        @@@@@@ C++
+        @@@@@@ C#
+        @@@@@@ Javascript
+        @@@@@@ Dart
+    ######################################################################################################
+    Frame works that i use in most of my works
+        @@@@@@ Laravel
+        @@@@@@ Flutter
+        @@@@@@ Vue
+        @@@@@@ Bootstrap
+    #####################################################################################################
+    Additional Skills
+        @@@@@@ HTML 5
+        @@@@@@ CSS 3
+        @@@@@@ SASS
+    Year @2021
+    ######################################################################################################
+    Contact Number-------@ 0622727660 / +255622727660
+    You can also Email me on 'jasjastone@gmail.com'
+    Thank You for viewing and happy birthday Editha #CR; so much love❤ ❤ ❤ ❤ ❤ ❤ 
+*/
 
+
+
+
+
+/*---------------///// import the fonts from google fonts //////////---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+/* ----apply style to all of the element in my document--- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* use the imported font to all of  my elements */
+    font-family: 'Carattere', cursive;
+    font-size: 24px;
+}
+html ,body{
+    background-color: rgba(255, 192, 203, 0.041);
+    scroll-behavior: smooth;
+}
+/* ----end of apply style to all of the element in my document*/
+
+
+/* ---------style for the container-- */
+.container{
+    position: relative;
+}
+/* ----end of style container */
+
+/* -------------control all the links tag */
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+/* ----end of the link control */
+
+/* ----style the menus--- */
+.header{
+    background-color: rgba(128, 128, 128, 0.182) ;
+    width: 100%;
+    z-index: 150;
+    position: fixed;
+    box-shadow: 0 1px 0 rgb(175, 175, 175);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.hamburger{
+    display: none;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: purple;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin:0 5px;
+    padding: 8px 28px;
+}
+.nav-item:hover{
+    transition: 1.3s;
+    background-color: pink !important;
+    color: #000 !important;
+}
+.nav-link{
+    font-size: 1em;
+    font-weight: bolder;
+    color: rgb(255, 74, 101);
+}
+.nav-link:hover{
+    transition: 0.6s;
+    color: black;
+}
+.nav-logo{
+    font-size: 2.5rem;
+    max-height: 50px;
+    height: 100%;
+    width: max-content;
+    font-weight: bolder;
+    color: red;
+}
+/* ---- end of style menus---- */
+
+.btn:active,.btn:focus{
+    outline: 0 !important;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.btn{
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.btn:hover{
+    transition: 900ms;
+    color: white !important;
+    background-color: rgb(255, 0, 255) !important;
+    box-shadow: 0 0 10px #333;
+}
+.height-100{
+    height: 100px;
+}
+.margin-top-1{
+    margin-top: 1rem;
+}
+.margin-top-2{
+    position: relative;
+    margin-top: 2rem !important;
+}
+.margin-top-3{
+    margin-top: 3rem;
+}
+.margin-top-4{
+    margin-top: 4rem;
+}
+.margin-top-5{
+    margin-top: 5rem;
+}
+.purple{
+    background-color: purple;
+    color: pink;
+}
+
+body{
+    background-image: url('/images/styling/1.png');
+    background-size: contain;
+    background-attachment: local;
+}
+.slider-name img{
+    border: 2px solid grey;
+    box-shadow: 0px 0 5px black;
+    border-radius: 20px;
+    width: 100%;
+}
+.first-row{
+    margin-top: 20px;
+    height: 80vh;
+}
+label{
+    display: block;
+    line-height: 1;
+    font-size: large;
+    color: purple;
+    padding: 0;
+    margin: 0;
+}
+span{
+    font-size: 16px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.04);
+    color: red;
+}
+.slider-name{
+    width: 100%;
+    height: max-content;
+    border-radius: 18px;
+    border:5px solid white;
+    box-shadow: 0 0 10px black;
+}
+
+
+span.age{
+    position: absolute;
+    right: 10px;
+    left: 100px;
+    width: max-content;
+    bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.301);
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    border-radius: 10px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px black;
+    border: none;
+    height: 5px;
+    background-color: black;
+}
+/*--------------------start of separato used to sepatate image when the screen get small --------------------- */
+.separator{
+    display: none;
+}
+/*--------------------end of separato used to sepatate image when the screen get small --------------------- */
+
+.time-and-place{
+    height: 100vh;
+}
+.color-pink{
+    background-color: pink !important;
+}
+/*-----------------start the time and date jumbotron style---------------- */
+.jumbotron{
+    height: 100vh;
+}
+/*-----------------end of the time and date jumbotron style---------------- */
+p.lead{
+    border-bottom: 1px solid purple;
+}
+
+.paragraph{
+    letter-spacing: 2px;
+    line-height: 1;
+    word-spacing: 2px;
+    font-size: 1em;
+}
+.slider-name-card img{
+    border: 2px solid grey;
+    box-shadow: 0px 0 5px black;
+    border-radius: 20px;
+    height: 40vh;
+}
+.slider-name-card{
+    width: max-content;
+    height: max-content;
+    border-radius: 18px;
+    border:5px solid white;
+    box-shadow: 0 0 10px black;
+}
+.card{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.308);
+}
+.myslides{
+    width: 100%;
+}
+.mySlides{
+    display: none;
+}
+h1{
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.gallerysection{
+    height: max-content;
+}
+.gallery{
+    height: 100vh;
+}
+ul li{
+    list-style: none;
+}
+
+/* --------------start special thanks slider ------------------*/
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #000;
+  font-size: 5rem;
+  padding: 8px 12px;
+  width: 100%;
+  height: max-content;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #333;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: rgb(56, 56, 56);
+}
+
+/*--------------start Fading animation for special thanks images */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+/* ------------------end of Fading animation for special thanks images */
+
+/*style for about section  */
+.about{
+    height: 100vh;
+    background-color: rgba(255, 192, 203, 0.2);
+}
+.height-small-screen-20{
+    display: none;
+}
+/* special thanks slider end -------------------- */
+
+/* ---start of the media query---- */
+@media  screen and (max-width:775px){
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 4.3rem;
+        flex-direction: column;
+        background-color: transparent ;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0,0,0,0.05);
+        z-index: 10;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    
+    .nav-item{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    hr{
+        display: none;
+    }
+    .separator{
+        display: block;
+        height: 50px;
+    }
+    .time-and-place{
+        height: 100%;
+    }
+    .slider-name img{
+        height: 100%;
+    }
+    .jumbotron{
+        height: 100%;
+    }
+    .gallery{
+        height: max-content;
+    }
+    .first-row{
+        height: max-content;
+    }
+    .about{
+        height: max-content;
+    }
+    .col-xs-12{
+        margin-bottom: 20px;
+    }
+}
+/* ----end of the media query---- */
